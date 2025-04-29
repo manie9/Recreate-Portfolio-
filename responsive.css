@@ -1,0 +1,111 @@
+/* Responsive Styles */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .skills-section {
+      padding: 40px 0;
+    }
+    
+    .skills-content p {
+      font-size: 1rem;
+    }
+    
+    .stats-number {
+      font-size: 2rem;
+    }
+    
+    .section-title {
+      font-size: 1.75rem;
+    }
+    
+    .service-item {
+      padding: 15px;
+    }
+    
+    .service-icon {
+      font-size: 20px;
+    }
+    
+    .client-logo i {
+      font-size: 2.5rem;
+    }
+    
+    .client-logo p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .skills-section {
+      padding: 60px 0;
+    }
+    
+    .service-item {
+      padding: 20px;
+    }
+    
+    .portfolio-item {
+      margin-bottom: 24px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .skills-section {
+      padding: 80px 0;
+    }
+    
+    .skills-content p {
+      font-size: 1.2rem;
+    }
+    
+    .service-item {
+      min-height: 150px;
+    }
+    
+    .portfolio-item {
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+    
+    .skills-content p {
+      font-size: 1.25rem;
+    }
+  }
+  
+  /* Fix for service items in mobile view */
+  @media (max-width: 767.98px) {
+    .service-item {
+      margin-bottom: 16px;
+    }
+    
+    .person-image {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+  }
+  
+  /* Fix for portfolio items spacing */
+  @media (max-width: 991.98px) {
+    .portfolio-item {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Adjustments for client logos on mobile */
+  @media (max-width: 767.98px) {
+    .clients-section {
+      padding: 40px 0;
+    }
+    
+    .client-logo {
+      margin-bottom: 20px;
+    }
+  }
